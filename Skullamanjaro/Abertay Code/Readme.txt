@@ -1,1 +1,1 @@
-Most code in the folder was given to me by abertay university. I have modified it somewhat.
+Most code in the folder was given to me by Abertay University to start the project. I have modified it somewhat.
