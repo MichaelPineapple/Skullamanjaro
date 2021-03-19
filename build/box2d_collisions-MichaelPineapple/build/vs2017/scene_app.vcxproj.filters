@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Abertay Code">
+      <UniqueIdentifier>{5097b81a-46c4-4650-9b2d-096a12c220a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Abertay Code\Header Files">
+      <UniqueIdentifier>{39e8ea64-5c07-4ddb-a631-862bdbd1cfbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Abertay Code\Source Files">
+      <UniqueIdentifier>{4b2a903a-fac0-47f1-ae27-d16a7f01acf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Abertay Code\Source Files\Main">
+      <UniqueIdentifier>{998c79ee-9e79-4e11-be5e-4f38081b1d67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="My Code">
+      <UniqueIdentifier>{686bb22e-eef4-459c-bb86-5b633add07ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="My Code\Header Files">
+      <UniqueIdentifier>{08e0b006-8a13-4c91-9bfd-388d6f99a096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="My Code\Source Files">
+      <UniqueIdentifier>{4639f573-f113-42a8-b84d-c277b4b75dd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="My Code\Source Files\GamesStates">
+      <UniqueIdentifier>{bf733834-cfbf-4d9b-b36b-5766f3b597f3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Nexus.cpp">
+      <Filter>My Code\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation.cpp">
+      <Filter>My Code\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MclObject.cpp">
+      <Filter>My Code\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HelpState.cpp">
+      <Filter>My Code\Source Files\GamesStates</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroState.cpp">
+      <Filter>My Code\Source Files\GamesStates</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuState.cpp">
+      <Filter>My Code\Source Files\GamesStates</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayState.cpp">
+      <Filter>My Code\Source Files\GamesStates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\main_d3d11.cpp">
+      <Filter>Abertay Code\Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\main_vita.cpp">
+      <Filter>Abertay Code\Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game_object.cpp">
+      <Filter>Abertay Code\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\primitive_builder.cpp">
+      <Filter>Abertay Code\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\scene_app.cpp">
+      <Filter>Abertay Code\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Nexus.h">
+      <Filter>My Code\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MclObject.h">
+      <Filter>My Code\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\primitive_builder.h">
+      <Filter>Abertay Code\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\game_object.h">
+      <Filter>Abertay Code\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\scene_app.h">
+      <Filter>Abertay Code\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
